@@ -1,0 +1,23 @@
+.container{
+	background-color: orange;
+	color: white;
+	padding bottom: 10px;
+	margin top: 10px;
+}
+h1{
+	font-size: 40pt;
+}
+
+.jumbotron{
+	background-image: url(../images/90snick.jpg);
+	position: relative;
+	box-sizing: border-box;
+	height: 600px;
+}
+
+body{
+	background-image: url(../images/90snick.jpg);
+	position: relative;
+}
+
+.mainArea
