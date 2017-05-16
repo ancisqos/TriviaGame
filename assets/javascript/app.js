@@ -4,15 +4,31 @@
 
 	var start
 	// Variable that holds array of questions to be generated
-	var questionArray =[];
+	var questionArray =[
+	"In the Rugrats, what is Tommy's last name?", 
+	"In Doug, what is the name of Doug's sister?",
+	"In Ren and Stimpy, what kind of animal is Ren?",
+	"In Global Guts, which of the following was NOT one of the names of the mountain they had to climb at the end of the show?",
+	""
+	];
 	// Variable that holds array of answers
-	var answerArray = [];
+	var answerArray = [
+	["Packer", "Pickles", "Parker", "Puckett"], 
+	["Joanna", "Julie", "Judy", "Nancy"],
+	["Chihuahua", "Rat", "Lemming", "Meerkat"],
+	["The Crag", "The Aggro Crag", "The Super Aggro Crag," "The Mega Crag", ],
+
+
+
+	];
 	// Variable that holds images of correct answers
 	var imageArray = [];
 
 	// Game Counters
-	var correctAnswers = [];
-	var correctScore = [];
+	var counter = 30;
+	var correctAnswers = 
+	["B. Pickles", "C. Judy", "A. Chihuahua", "D. The Mega Crag",  ];
+	var correctScore = [ ];
 	var incorrectScore = [];
 
 
@@ -20,12 +36,21 @@
 // ================================================
 
 // Initialize game
-$(document).ready(function() {}
+$(document).ready(function() {
 
-function startScreen(){
-	start = "<p class=''text-center main-button-container'><a class='btn btn-primary btn-lg btn-block start-button' href='#' role='button'>Begin Quiz!</a></p>";'
-	$(".mainArea").html(start);
-}
+})
+
+
 
 //MAIN PROCESS
 // ================================================
+
+$("#startGame").click(function() {
+    $("#startGame").remove();
+    countDown();
+    setTimeout(function() {
+        triviaQuestions();
+        triviaResponses();
+    }, 1000);
+    console.log(startGame);
+    })
