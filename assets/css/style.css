@@ -1,35 +1,50 @@
-.container{
-	background-color: orange;
-	color: white;
-	padding bottom: 10px;
-	margin top: 10px;
+.jumbotron {
+  box-sizing: border-box;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-h1{
-	font-size: 40pt;
-	text-align: center;
-	padding top: 5px;
-	padding bottom: 5px;
-	margin top: 200px;
+.main-button-container {
+  margin-top: 175px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.jumbotron{
-	position: relative;
-	box-sizing: border-box;
-	height: 600px;
+.timer-p {
+  margin-top: 40px;
 }
 
-#startGame{
-	background-color: orange;
-	color: white;
-	font-size: 20pt;
+.answer:hover {
+  background: pink;
 }
 
-.button-container{
-	text-align: center;
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  color: black;
+  padding-left: 14px;
+  background-color: white;
+  border-radius: 4px;
 }
 
-body{
-	background-image: url(../images/90snick.jpg);
-	position: relative;
+.img-wrong {
+  margin-top: 40px;
+}
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.reset-button {
+  margin-top: 40px;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
+
+body {
+  background-color: orange;
+  color: white;
 }

@@ -2,6 +2,7 @@
 // =====================================================
 // Arrays and variables for holding data
 
+	var startScreen;
 	var start
 	// Variable that holds array of questions to be generated
 	var questionArray =[
@@ -38,7 +39,13 @@
 // Initialize game
 $(document).ready(function() {
 
-})
+function initialScreen() {
+	startScreen = ""
+
+}
+
+
+});
 
 
 
