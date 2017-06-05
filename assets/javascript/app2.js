@@ -115,7 +115,7 @@ var gameHTML;
 var counter = 30;
 var questionArray = ["In the Rugrats, what is Tommy's last name?", "In Doug, what is the name of Doug's sister?", "In Ren and Stimpy, what kind of animal is Ren?", "In Global Guts, which of the following was NOT one of the names of the mountain they had to climb at the end of the show?", ];
 var answerArray = [["Packer", "Pickles", "Parker", "Puckett"], ["Joanna", "Julie", "Judy", "Nancy"], ["Chihuahua", "Rat", "Lemming", "Meerkat"], ["The Crag", "The Aggro Crag", "The Super Aggro Crag", "The Mega Crag"]];
-var correctAnswers = ["B. Pickles", "C. Judy", "A. Chihuahua", "D. The Mega Crag", "", "", "", ""];
+var correctAnswers = ["B. Pickles", "C. Judy", "A. Chihuahua", "D. The Mega Crag",];
 var questionCounter = 0;
 var selecterAnswer;
 var theClock;
