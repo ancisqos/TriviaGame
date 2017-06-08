@@ -26,6 +26,7 @@
   padding-left: 14px;
   background-color: white;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .img-wrong {
@@ -46,5 +47,5 @@
 
 body {
   background-color: orange;
-  color: white;
+  color: black;
 }
